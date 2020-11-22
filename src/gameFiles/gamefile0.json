@@ -1,0 +1,10 @@
+{
+  "rows": "3",
+  "columns": "3",
+  "blocked": [
+    {
+      "column": 1,
+      "row": 1
+    }
+  ]
+}

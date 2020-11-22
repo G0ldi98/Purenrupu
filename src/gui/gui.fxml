@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+<StackPane onDragDropped="#handleDragDropped" onDragOver="#handleDragOver" onKeyPressed="#handleOnKeyPressed"
+           xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="gui.Controller">
+    <GridPane fx:id="gridPane" alignment="CENTER" focusTraversable="true"/>
+    <Text fx:id="infoText" focusTraversable="true" text="Insert JSON file and wait for response"/>
+</StackPane>
